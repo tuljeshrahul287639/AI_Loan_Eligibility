@@ -1,0 +1,48 @@
+LENDING POLICY - RISK ASSESSMENT FRAMEWORK
+
+1. CREDIT RISK SCORING METHODOLOGY
+   Credit Score Component: 35% weight
+   - 750+ : 95-100 points
+   - 700-749 : 80-94 points
+   - 650-699 : 60-79 points
+   - 600-649 : 40-59 points
+   - Below 600 : 0-39 points
+   
+   Delinquency Penalty: -5 points per delinquency
+   Bankruptcy Penalty: -20 points per bankruptcy
+
+2. INCOME STABILITY SCORING
+   Income Stability Component: 25% weight
+   - Employment length multiplier: years employed x 15
+   - Full-time bonus: +15 points
+   - Part-time penalty: +5 points only
+   - Income-to-loan ratio adjustment
+   - Maximum income stability score: 100
+
+3. DEBT RISK SCORING
+   Debt Risk Component: 25% weight
+   - Base score: 100
+   - Debt ratio penalty: debt ratio x 100
+   - Recent inquiry penalty: -3 points per inquiry
+   - Maximum debt risk score: 100
+
+4. BEHAVIORAL RISK SCORING
+   Behavioral Component: 15% weight
+   - Recent inquiries: 0-4 inquiries acceptable
+   - Inquiry penalty: -3 points per inquiry beyond acceptable
+   - Maximum behavioral score: 100
+
+5. OVERALL RISK CALCULATION
+   Overall Risk Score = (Credit x 0.35) + (Income x 0.25) + (Debt x 0.25) + (Behavioral x 0.15)
+   
+   Risk Levels:
+   - 75-100: LOW RISK (Approve)
+   - 60-74: LOW TO MODERATE RISK (Review)
+   - 40-59: MODERATE RISK (Review/Escalate)
+   - 25-39: HIGH RISK (Escalate)
+   - 0-24: VERY HIGH RISK (Reject)
+
+6. APPROVAL THRESHOLDS
+   - Auto-Approve: Risk score >= 85 AND Credit score >= 720
+   - Auto-Reject: Risk score <= 25 OR Credit score < 620
+   - Human Review: All other cases

@@ -1,0 +1,37 @@
+LENDING POLICY - CORE REQUIREMENTS
+
+1. MINIMUM CREDIT SCORE
+   - Minimum acceptable credit score: 620
+   - Excellent credit: 750+
+   - Good credit: 700-749
+   - Fair credit: 650-699
+   - Poor credit: below 650
+
+2. DEBT-TO-INCOME RATIO
+   - Maximum acceptable DTI: 43%
+   - Recommended DTI: below 36%
+   - Critical threshold: 50% (automatic rejection)
+   - DTI = (Total Monthly Debt / Monthly Income) x 100
+
+3. INCOME REQUIREMENTS
+   - Minimum monthly income: $1,500
+   - Stable employment history required: minimum 6 months
+   - Acceptable employment types: Full-time, Part-time, Self-employed
+   - Income verification: Recent pay stubs or tax returns
+
+4. LOAN ELIGIBILITY
+   - Minimum loan amount: $50,000
+   - Maximum loan amount: $500,000
+   - Loan-to-income ratio: Should not exceed 5x annual income
+   - Standard term: 30 years at 6% annual interest rate
+
+5. AGE AND CITIZENSHIP
+   - Applicant must be 18 years or older
+   - U.S. citizen or permanent resident required
+   - Valid government-issued ID required
+
+6. EMPLOYMENT VERIFICATION
+   - Current employment status must be verified
+   - Previous employment history review: minimum 2 years
+   - Gap in employment: must be explained
+   - Job stability factor considered in approval

@@ -1,0 +1,45 @@
+LENDING POLICY - EXCEPTIONS AND SPECIAL CASES
+
+1. BANKRUPTCY HANDLING
+   - Discharged bankruptcy: Eligible after 2 years
+   - Chapter 7 bankruptcy: Eligible after 7 years
+   - Chapter 13 bankruptcy: Eligible if still in repayment
+   - Recent bankruptcy (< 2 years): Manual review required
+   - Multiple bankruptcies: Automatic rejection
+
+2. CREDIT REPAIR PROGRAMS
+   - Recent credit repair (< 6 months): Flag for review
+   - Legitimate credit repair: Consider trends
+   - Rapid credit score improvement: Verify legitimacy
+   - Minimum improvement rate: 20 points annually
+
+3. DELINQUENCY EXCEPTIONS
+   - Single delinquency (30 days): May approve with conditions
+   - Multiple delinquencies: Manual review
+   - Recent delinquency (< 1 year): Increased scrutiny
+   - Explained delinquencies: Consider context
+
+4. INCOME EXCEPTIONS
+   - Seasonal employment: Annualize income
+   - Commission-based income: Use 2-year average
+   - Self-employment: Require 2 years tax returns
+   - Recent job change (< 3 months): Verify stability
+
+5. DEBT EXCEPTIONS
+   - Student loan deferment: May count as $0
+   - Medical debt: Consider with context
+   - Fraud/disputed debt: Exclude if proving
+   - Authorized user accounts: Do not count
+
+6. SPECIAL PROGRAMS
+   - First-time homebuyer: DTI limit may increase to 50%
+   - Government employee: Standard terms apply
+   - Military service: Special consideration available
+   - Economic hardship: Case-by-case review
+
+7. MANUAL REVIEW TRIGGERS
+   - Confidence score between 50-70%
+   - Agent recommendation disagreement
+   - Unusual financial patterns
+   - Multiple risk factors present
+   - Applicant dispute or appeal
