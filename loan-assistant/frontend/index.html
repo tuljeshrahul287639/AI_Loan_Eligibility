@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Loan Eligibility Assessment Assistant</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>AI Loan Eligibility Assessment Assistant</h1>
+      <p>Financial Analysis, Risk and Recommendation agents grounded in lending policy</p>
+    </div>
+    <span id="llm-pill" class="pill" title="How the agents write their narrative text">Checking…</span>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab active" role="tab" aria-selected="true" data-tab="assess">Assessment</button>
+    <button class="tab" role="tab" aria-selected="false" data-tab="policies">Lending policies</button>
+  </nav>
+
+  <main>
+    <section id="tab-assess" class="layout">
+      <aside class="sidebar">
+        <div class="card">
+          <h2>Synthetic applications</h2>
+          <form id="gen-form" class="gen-form">
+            <label>Count <input id="gen-count" type="number" min="1" max="50" value="10"></label>
+            <label class="check"><input id="gen-replace" type="checkbox"> Replace existing</label>
+            <button type="submit" class="btn">Generate</button>
+          </form>
+          <div class="upload">
+            <label class="btn btn-outline" for="upload-input">Upload application PDF</label>
+            <input id="upload-input" type="file" accept="application/pdf" hidden>
+          </div>
+        </div>
+        <div class="card list-card">
+          <h2>Applications <span id="app-count" class="muted"></span></h2>
+          <ul id="app-list" class="app-list"></ul>
+        </div>
+      </aside>
+
+      <div class="content">
+        <div id="message" class="message" role="alert" hidden></div>
+
+        <div id="empty" class="card empty">
+          <h2>Select an application</h2>
+          <p>Choose a synthetic application on the left, or upload a loan application PDF, then run the assessment.</p>
+        </div>
+
+        <div id="selected" class="card" hidden></div>
+        <div id="results" hidden></div>
+      </div>
+    </section>
+
+    <section id="tab-policies" hidden>
+      <div id="policy-docs"></div>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
