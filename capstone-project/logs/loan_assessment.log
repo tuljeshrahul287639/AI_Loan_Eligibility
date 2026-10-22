@@ -1,0 +1,118 @@
+2026-10-14 15:17:32,561 - httpx - INFO - HTTP Request: GET https://chroma-onnx-models.s3.amazonaws.com/all-MiniLM-L6-v2/onnx.tar.gz "HTTP/1.1 200 OK"
+2026-10-15 15:22:52,078 - FinancialAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-15 15:22:53,091 - RiskAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-15 15:22:53,100 - workflow - INFO - Step: synthesis, Status: Final: APPROVE
+2026-10-15 15:22:53,103 - RecommendationAgent - INFO - Decision: APPROVE, Confidence: 0.9900000000000001
+2026-10-15 15:22:53,103 - FINAL_DECISION - INFO - Decision: APPROVE, Confidence: 0.99
+2026-10-15 15:22:53,163 - FinancialAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-15 15:22:54,011 - RiskAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-15 15:22:54,021 - workflow - INFO - Step: synthesis, Status: Final: APPROVE
+2026-10-15 15:22:54,021 - RecommendationAgent - INFO - Decision: APPROVE, Confidence: 0.9900000000000001
+2026-10-15 15:22:54,021 - FINAL_DECISION - INFO - Decision: APPROVE, Confidence: 0.99
+2026-10-15 15:22:54,051 - FinancialAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-15 15:22:55,088 - RiskAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-15 15:22:55,091 - workflow - INFO - Step: synthesis, Status: Final: APPROVE
+2026-10-15 15:22:55,091 - RecommendationAgent - INFO - Decision: APPROVE, Confidence: 0.9900000000000001
+2026-10-15 15:22:55,091 - FINAL_DECISION - INFO - Decision: APPROVE, Confidence: 0.99
+2026-10-15 15:22:55,125 - FinancialAgent - INFO - Decision: REVIEW, Confidence: 0.6
+2026-10-15 15:22:56,029 - RiskAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-15 15:22:56,036 - workflow - INFO - Step: synthesis, Status: Final: REVIEW
+2026-10-15 15:22:56,036 - RecommendationAgent - INFO - Decision: REVIEW, Confidence: 0.75
+2026-10-15 15:22:56,038 - FINAL_DECISION - INFO - Decision: REVIEW, Confidence: 0.75
+2026-10-15 15:22:56,114 - FinancialAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-15 15:22:57,140 - RiskAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-15 15:22:57,156 - workflow - INFO - Step: synthesis, Status: Final: APPROVE
+2026-10-15 15:22:57,156 - RecommendationAgent - INFO - Decision: APPROVE, Confidence: 0.9900000000000001
+2026-10-15 15:22:57,156 - FINAL_DECISION - INFO - Decision: REVIEW, Confidence: 0.99
+2026-10-15 15:34:51,117 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-10-15 15:37:40,051 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-10-15 16:03:43,967 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-10-15 16:06:32,903 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-10-15 16:16:01,418 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-10-15 16:18:50,267 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 400 Bad Request"
+2026-10-21 14:33:08,844 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-10-21 14:33:09,268 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 401 Unauthorized"
+2026-10-21 14:34:00,434 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-10-21 14:34:00,803 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 401 Unauthorized"
+2026-10-21 15:11:32,361 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-10-21 15:11:32,892 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 401 Unauthorized"
+2026-10-21 15:20:53,696 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-10-21 15:20:54,223 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 401 Unauthorized"
+2026-10-21 15:22:54,602 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-10-21 15:22:54,909 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 401 Unauthorized"
+2026-10-21 15:24:01,220 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-10-21 15:24:01,556 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 401 Unauthorized"
+2026-10-21 15:24:34,010 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-10-21 15:24:34,320 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 401 Unauthorized"
+2026-10-21 15:32:48,590 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-10-21 15:32:49,332 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-10-21 15:55:21,961 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-10-21 15:55:26,941 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-21 15:55:26,944 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 1.1575455565203954 seconds as it raised ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}.
+2026-10-21 15:55:35,946 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-21 16:03:09,654 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-10-21 16:03:13,173 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-10-21 16:03:51,389 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-10-21 16:03:55,749 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-21 16:03:55,749 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 1.9118334809293058 seconds as it raised ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}.
+2026-10-21 16:04:01,524 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-21 17:32:18,335 - FinancialAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-21 17:32:18,622 - RiskAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-21 17:32:18,630 - workflow - INFO - Step: synthesis, Status: Final: APPROVE
+2026-10-21 17:32:18,630 - RecommendationAgent - INFO - Decision: APPROVE, Confidence: 0.9900000000000001
+2026-10-21 17:32:18,631 - FINAL_DECISION - INFO - Decision: APPROVE, Confidence: 0.99
+2026-10-21 17:32:18,662 - FinancialAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-21 17:32:18,969 - RiskAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-21 17:32:18,969 - workflow - INFO - Step: synthesis, Status: Final: APPROVE
+2026-10-21 17:32:18,969 - RecommendationAgent - INFO - Decision: APPROVE, Confidence: 0.9900000000000001
+2026-10-21 17:32:18,969 - FINAL_DECISION - INFO - Decision: APPROVE, Confidence: 0.99
+2026-10-21 17:32:19,008 - FinancialAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-21 17:32:19,289 - RiskAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-21 17:32:19,289 - workflow - INFO - Step: synthesis, Status: Final: APPROVE
+2026-10-21 17:32:19,289 - RecommendationAgent - INFO - Decision: APPROVE, Confidence: 0.9900000000000001
+2026-10-21 17:32:19,289 - FINAL_DECISION - INFO - Decision: APPROVE, Confidence: 0.99
+2026-10-21 17:32:19,328 - FinancialAgent - INFO - Decision: REVIEW, Confidence: 0.6
+2026-10-21 17:32:19,607 - RiskAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-21 17:32:19,609 - workflow - INFO - Step: synthesis, Status: Final: REVIEW
+2026-10-21 17:32:19,609 - RecommendationAgent - INFO - Decision: REVIEW, Confidence: 0.75
+2026-10-21 17:32:19,609 - FINAL_DECISION - INFO - Decision: REVIEW, Confidence: 0.75
+2026-10-21 17:32:19,640 - FinancialAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-21 17:32:19,897 - RiskAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-21 17:32:19,901 - workflow - INFO - Step: synthesis, Status: Final: APPROVE
+2026-10-21 17:32:19,901 - RecommendationAgent - INFO - Decision: APPROVE, Confidence: 0.9900000000000001
+2026-10-21 17:32:19,901 - FINAL_DECISION - INFO - Decision: REVIEW, Confidence: 0.99
+2026-10-21 17:32:19,960 - httpx2 - INFO - HTTP Request: POST http://testserver/api/applications/import-samples?limit=10 "HTTP/1.1 200 OK"
+2026-10-21 17:32:19,977 - httpx2 - INFO - HTTP Request: GET http://testserver/api/applications?status=PENDING_REVIEW "HTTP/1.1 200 OK"
+2026-10-21 17:32:19,977 - httpx2 - INFO - HTTP Request: POST http://testserver/api/applications/5/review "HTTP/1.1 401 Unauthorized"
+2026-10-21 17:32:19,977 - httpx2 - INFO - HTTP Request: POST http://testserver/api/applications/5/review "HTTP/1.1 401 Unauthorized"
+2026-10-21 17:32:20,085 - httpx2 - INFO - HTTP Request: POST http://testserver/api/applications/5/review "HTTP/1.1 201 Created"
+2026-10-21 17:32:20,089 - httpx2 - INFO - HTTP Request: POST http://testserver/api/applications/5/review "HTTP/1.1 409 Conflict"
+2026-10-21 17:32:20,093 - httpx2 - INFO - HTTP Request: POST http://testserver/api/applications/5/review "HTTP/1.1 422 Unprocessable Content"
+2026-10-21 17:32:20,095 - httpx2 - INFO - HTTP Request: GET http://testserver/api/applications?status=PENDING_REVIEW "HTTP/1.1 200 OK"
+2026-10-21 17:32:20,102 - httpx2 - INFO - HTTP Request: GET http://testserver/api/applications/stats "HTTP/1.1 200 OK"
+2026-10-21 21:03:59,966 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-10-21 21:04:37,063 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-21 21:04:37,080 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 1.4449449034824997 seconds as it raised ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}.
+2026-10-21 21:05:24,198 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-10-21 21:05:33,174 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-21 21:05:58,372 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-21 21:05:58,375 - google_genai._api_client - INFO - Retrying google.genai._api_client.BaseApiClient._request_once in 1.2503368343829555 seconds as it raised ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}.
+2026-10-21 21:06:48,305 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-10-21 21:20:01,494 - httpx2 - INFO - HTTP Request: POST http://testserver/api/auth/admin/login "HTTP/1.1 401 Unauthorized"
+2026-10-21 21:23:54,801 - FinancialAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-21 21:23:55,150 - RiskAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-21 21:23:55,150 - workflow - INFO - Step: synthesis, Status: Final: APPROVE
+2026-10-21 21:23:55,150 - RecommendationAgent - INFO - Decision: APPROVE, Confidence: 0.9900000000000001
+2026-10-21 21:23:55,157 - FINAL_DECISION - INFO - Decision: APPROVE, Confidence: 0.99
+2026-10-21 21:25:49,326 - FinancialAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-21 21:25:50,088 - RiskAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-21 21:25:50,104 - workflow - INFO - Step: synthesis, Status: Final: APPROVE
+2026-10-21 21:25:50,104 - RecommendationAgent - INFO - Decision: APPROVE, Confidence: 0.9900000000000001
+2026-10-21 21:25:50,106 - FINAL_DECISION - INFO - Decision: APPROVE, Confidence: 0.99
+2026-10-22 10:51:50,204 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-10-22 10:51:56,628 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-10-22 10:52:45,019 - FinancialAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-22 10:52:46,344 - RiskAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-22 10:52:46,354 - workflow - INFO - Step: synthesis, Status: Final: APPROVE
+2026-10-22 10:52:46,354 - RecommendationAgent - INFO - Decision: APPROVE, Confidence: 0.9900000000000001
+2026-10-22 10:52:46,356 - FINAL_DECISION - INFO - Decision: APPROVE, Confidence: 0.99

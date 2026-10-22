@@ -1,0 +1,13 @@
+BANK STATEMENT - SEPTEMBER 2026
+Account holder: Maria Santos
+
+Opening balance: 9,850.20
+Salary credit (Acme Corporation): 8,000.00
+Mortgage repayment: -1,350.00
+Car loan repayment: -250.00
+Credit card minimum payment: -100.00
+Utilities: -280.00
+Groceries and living costs: -1,570.00
+
+Closing balance: 14,300.20
+Employment: Full-time, 6 years with Acme Corporation

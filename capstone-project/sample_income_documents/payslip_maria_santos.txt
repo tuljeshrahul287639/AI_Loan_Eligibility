@@ -1,0 +1,13 @@
+ACME CORPORATION - PAYSLIP
+Employee name: Maria Santos
+Employment type: Full-time
+Employer: Acme Corporation
+Pay period: September 2026 (monthly)
+
+Gross monthly salary: 8,000.00
+Tax deducted: 1,450.00
+Pension contribution: 320.00
+Net pay: 6,230.00
+
+Year-to-date gross: 72,000.00
+Length of service: 6 years
