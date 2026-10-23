@@ -10,7 +10,7 @@ def setup_logging():
         level=logging.INFO,
         format=config.LOG_FORMAT,
         handlers=[
-            logging.FileHandler(log_path),
+            logging.FileHandler(log_path, encoding="utf-8"),
             logging.StreamHandler()
         ]
     )

@@ -51,5 +51,11 @@ def load_sample_applications():
     with open(file_path, 'r') as f:
         return json.load(f)
 
+def load_curated_applications():
+    """Hand-picked applications with one example per outcome (APPROVE, REVIEW, REJECT)"""
+    file_path = Path(__file__).resolve().parent.parent / config.CURATED_DATA_FILE
+    with open(file_path, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
 if __name__ == "__main__":
     generate_and_save_synthetic_data(config.NUM_SYNTHETIC_APPLICATIONS)

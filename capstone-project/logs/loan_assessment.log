@@ -116,3 +116,4 @@
 2026-10-22 10:52:46,354 - workflow - INFO - Step: synthesis, Status: Final: APPROVE
 2026-10-22 10:52:46,354 - RecommendationAgent - INFO - Decision: APPROVE, Confidence: 0.9900000000000001
 2026-10-22 10:52:46,356 - FINAL_DECISION - INFO - Decision: APPROVE, Confidence: 0.99
+2026-10-23 18:52:03,228 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
