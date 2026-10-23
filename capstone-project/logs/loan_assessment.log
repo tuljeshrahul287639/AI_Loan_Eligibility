@@ -117,3 +117,9 @@
 2026-10-22 10:52:46,354 - RecommendationAgent - INFO - Decision: APPROVE, Confidence: 0.9900000000000001
 2026-10-22 10:52:46,356 - FINAL_DECISION - INFO - Decision: APPROVE, Confidence: 0.99
 2026-10-23 18:52:03,228 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-10-23 18:54:57,644 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-10-23 18:55:52,979 - FinancialAgent - INFO - Decision: APPROVE, Confidence: 0.9
+2026-10-23 18:55:52,980 - error - ERROR - Error: 'RAGPipeline' object has no attribute 'retrieve', Context: Risk analysis failed
+2026-10-23 18:55:52,985 - workflow - INFO - Step: synthesis, Status: Final: REVIEW
+2026-10-23 18:55:52,986 - RecommendationAgent - INFO - Decision: REVIEW, Confidence: 0.45
+2026-10-23 18:55:52,987 - FINAL_DECISION - INFO - Decision: REVIEW, Confidence: 0.45
